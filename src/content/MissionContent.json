@@ -1,8 +1,5 @@
 {
   "title": "Services",
-  "text": "Streamline Your Development and Operations: We help you build robust CI/CD pipelines, automate infrastructure, and embrace a culture of DevOps for faster, more reliable deployments. 
-Connect Your Ecosystem, Unlock New Possibilities: Seamlessly integrate APIs to synchronize systems, automate workflows, and enhance user experiences. 
-Empower Your Team with Trusted Data: Organize, discover, and manage your data assets with comprehensive data catalog solutions. 
-Unify Your Data for Better Decision-Making: We specialize in integrating data from multiple sources into a unified, actionable view. 
-Build Scalable Data Systems for the Future: Design and implement data pipelines and architectures that scale with your business."
+  "text": "Streamline Your Development and Operations: We help you build robust CI/CD pipelines, automate infrastructure, and embrace a culture of DevOps for faster, more reliable deployments. Connect Your Ecosystem, Unlock New Possibilities: Seamlessly integrate APIs to synchronize systems, automate workflows, and enhance user experiences. 
+Empower Your Team with Trusted Data: Organize, discover, and manage your data assets with comprehensive data catalog solutions. Unify Your Data for Better Decision-Making: We specialize in integrating data from multiple sources into a unified, actionable view. Build Scalable Data Systems for the Future: Design and implement data pipelines and architectures that scale with your business."
 }
