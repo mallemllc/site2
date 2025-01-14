@@ -56,7 +56,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
+              <a href="mailto:support@mallemreseau.com">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
@@ -126,6 +126,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                   height="64px"
                 />
               </LogoContainer>
+            <FooterContainer>
             </NavLink>
               <SocialLink
                 href="https://www.linkedin.com/in/ujjwalmallem/"
