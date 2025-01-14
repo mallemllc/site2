@@ -1,21 +1,26 @@
 {
   "title": "Industries We Serve",
+  "text": "At Mallem LLC, we bring tailored technology solutions to a wide range of industries. Our expertise in DevOps, API integration, data cataloging, data integration, and data engineering empowers organizations to achieve operational excellence and data-driven innovation.",
   "section": [
     {
       "title": "Finance",
-      "content": "Automated reporting, fraud detection, and real-time analytics."
+      "content": "Automated reporting, fraud detection, and real-time analytics.",
+      "icon": "notes.svg"
     },
     {
       "title": "Healthcare",
-      "content": "Styled Components gives you total control over your components."
+      "content": "Styled Components gives you total control over your components.",
+      "icon": "notes.svg"
     },
     {
       "title": "Retail & E-commerce",
-      "content": "Unified customer insights and supply chain optimization."
+      "content": "Unified customer insights and supply chain optimization.",
+      "icon": "notes.svg"
     },
     {
       "title": "Technology",
       "content": "Scalable DevOps and cloud solutions for SaaS platforms."
+      "icon": "notes.svg"
     }
   ]
 }
