@@ -77,14 +77,12 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Language>{t("Address")}</Language>
               <Para>Ujjwal Mallem</Para>
               <Para>42315 Stonemont Cir</Para>
-              <Para>Ashburn, Virginia, 20148</Para>
+              <Para>Viriginia</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
               <Large to="/">{t("About")}</Large>
               <Large to="/">{t("Blog")}</Large>
-              <Large to="/">{t("Press")}</Large>
-              <Large to="/">{t("Careers & Culture")}</Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
@@ -126,8 +124,8 @@ const Footer = ({ t }: { t: TFunction }) => {
                   height="64px"
                 />
               </LogoContainer>
-            <FooterContainer>
             </NavLink>
+            <FooterContainer>
               <SocialLink
                 href="https://www.linkedin.com/in/ujjwalmallem/"
                 src="linkedin.svg"
