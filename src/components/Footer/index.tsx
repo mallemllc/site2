@@ -81,7 +81,7 @@ const Footer = ({ t }: { t: TFunction }) => {
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
-              <Large to="/">{t("About")}</Large>
+              <Large onClick={() => scrollTo("about")}>{t("About")}</Large>
               <Large to="/">{t("Blog")}</Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
