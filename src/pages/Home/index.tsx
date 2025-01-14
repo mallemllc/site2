@@ -48,6 +48,7 @@ const Home = () => {
         direction="left"
         title={ProductContent.title}
         content={ProductContent.text}
+        section={ProductContent.section}
         icon="waving.svg"
         id="product"
       />
