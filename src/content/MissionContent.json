@@ -1,4 +1,8 @@
 {
-  "title": "Ready made sections",
-  "text": "Landy comes with a set of ready to use sections to help you easily create a landing page for your own brand, with all the content your startup desires. In order to replace any dummy elements (text, image, etc..) all you need to do is go to content folder and input your real content."
+  "title": "Services",
+  "text": "Streamline Your Development and Operations: We help you build robust CI/CD pipelines, automate infrastructure, and embrace a culture of DevOps for faster, more reliable deployments. 
+Connect Your Ecosystem, Unlock New Possibilities: Seamlessly integrate APIs to synchronize systems, automate workflows, and enhance user experiences. 
+Empower Your Team with Trusted Data: Organize, discover, and manage your data assets with comprehensive data catalog solutions. 
+Unify Your Data for Better Decision-Making: We specialize in integrating data from multiple sources into a unified, actionable view. 
+Build Scalable Data Systems for the Future: Design and implement data pipelines and architectures that scale with your business."
 }
