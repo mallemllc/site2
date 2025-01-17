@@ -1,3 +1,5 @@
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { Slide } from "react-awesome-reveal";
@@ -16,6 +18,26 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
   const ValidationType = ({ type }: ValidationTypeProps) => {
     const ErrorMessage = errors[type as keyof typeof errors];
     return <Span>{ErrorMessage}</Span>;
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Replace with your EmailJS details
+    const serviceID = "service_zyu07gj";
+    const templateID = "template_svmsxni";
+    const publicKey = "Ebi99mN8asMi7fjun";
+
+    emailjs
+      .send(serviceID, templateID, formData, publicKey)
+      .then(() => {
+        setStatus("Message sent successfully!");
+        setFormData({ name: "", email: "", message: "" });
+      })
+      .catch((error) => {
+        setStatus("Failed to send message. Please try again later.");
+        console.error(error);
+      });
   };
 
   return (
