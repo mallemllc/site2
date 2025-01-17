@@ -13,7 +13,7 @@ import TextArea from "../../common/TextArea";
 import { ContactContainer, FormGroup, Span, ButtonContainer } from "./styles";
 
 const Contact = ({ title, content, id, t }: ContactProps) => {
-  const { values, errors, handleChange } = useForm(validate);
+  const { errors } = useForm(validate);
   const [status, setStatus] = useState("");
   const [formData, setFormData] = useState({
     name: "",
