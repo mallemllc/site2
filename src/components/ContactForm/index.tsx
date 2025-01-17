@@ -20,8 +20,8 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
     return <Span>{ErrorMessage}</Span>;
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = () => {
+    // e.preventDefault();
 
     // Replace with your EmailJS details
     const serviceID = "service_zyu07gj";
